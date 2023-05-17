@@ -22,7 +22,7 @@ const Intro = () => {
       <div className=" flex-[0.5] overflow-hidden">
         <div className="flex w-[700px] h-[700px] justify-center mt-6 items-end md:items-start float-right rounded-[50%] bg-red-400 ">
           <Image
-            src="/assets/man.png"
+            src="https://drive.google.com/file/d/1MoYGIV9PT1UEECXiNPa77UjMYOdQSt9f/view?usp=share_link"
             alt="developer"
             width={400}
             height={100}
