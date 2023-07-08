@@ -18,11 +18,13 @@ const TopBar = ({ menuOpen, setMenuOpen }) => {
           </a>
           <div className="flex items-center ml-4 md:hidden">
             <Person className="text-lg mr-2" />
-            <span className=" text-base font-bold ">+234 8135715 155</span>
+            <span className=" text-base font-bold ">+234 807464 0440</span>
           </div>
           <div className="flex items-center ml-4 md:hidden">
             <Mail className="text-lg mr-2" />
-            <span className=" text-base font-bold">bmat@gmail.com</span>
+            <span className=" text-base font-bold">
+              mathewabioduntech537@gmail.com
+            </span>
           </div>
         </div>
         <div>
