@@ -1,14 +1,18 @@
 export const webs = [
   {
     id: 1,
-    title: "Banking App",
-    img: "https://cdn.dribbble.com/userupload/4270138/file/original-2896791472db2890fb029ed240db414b.png?compress=1&resize=450x338&vertical=top",
+    title: "Bmat Pizza",
+    img: "/assets/pizza.png",
+    url: "https://pizza-ewxeqbz5n-bmat321.vercel.app/?vercelToolbarCode=SUC2eSe0GYrAK39"
   },
+  // "https://cdn.dribbble.com/userupload/4270138/file/original-2896791472db2890fb029ed240db414b.png?compress=1&resize=450x338&vertical=top",
   {
     id: 2,
-    title: "Uber App",
-    img: "https://cdn.dribbble.com/userupload/4274059/file/original-9ac10000472664ed7620c5fff753ffaa.png?compress=1&resize=450x338&vertical=top",
+    title: "Reddit-clone",
+    img: "/assets/reddit-clone.png",
+    url: "https://reddit-clone-ts.vercel.app/"
   },
+  // img: "https://cdn.dribbble.com/userupload/4274059/file/original-9ac10000472664ed7620c5fff753ffaa.png?compress=1&resize=450x338&vertical=top",
   {
     id: 3,
     title: "Twiter App",

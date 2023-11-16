@@ -25,3 +25,23 @@ export default function Home() {
     </div>
   );
 }
+// try {
+//   const req = await sendEmail(
+//     contact.email,
+//     contact.subject,
+//     contact.message
+//   );
+//   console.log("REQ", req);
+//   // if (req.status === 250) {
+//   //   setResponseMessage({
+//   //     isSuccessful: true,
+//   //     message: "Thank you for your message.",
+//   //   });
+//   // }
+// } catch (e) {
+//   console.log(e);
+//   // setResponseMessage({
+//   //   isSuccessful: false,
+//   //   message: "Oops something went wrong. Please try again.",
+//   // });
+// }

@@ -5,7 +5,7 @@ const ListPortfolio = ({ title, active, id, setSelected }) => {
     <li
       className={
         active
-          ? "text-sm mr-12 p-2 bg-red-950 rounded-2xl "
+          ? "text-sm mr-12 p-2 bg-slate-600 rounded-2xl "
           : "text-sm mr-12 p-2"
       }
       onClick={() => setSelected(id)}

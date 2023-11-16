@@ -22,7 +22,7 @@ const Intro = () => {
       <div className="flex-[0.5] md:flex-[0.4] md:h-[40px] md:flex overflow-hidden">
         <div className="flex w-[700px] h-[700px] justify-center md:mt-2 mt-6 items-end  md:items-start float-right rounded-[50%]">
           <Image
-            src="/assets/ma.png"
+            src={require("../../../../public/assets/ma.png")}
             alt="developer"
             width={300}
             height={100}
@@ -50,7 +50,7 @@ const Intro = () => {
           className="absolute bottom-4 md:bottom-0 left-[30%] md:left-[50%] animate-ping"
         >
           <Image
-            src="/assets/down.png"
+            src={require("../../../../public/assets/down.png")}
             alt="down"
             width={20}
             height={20}

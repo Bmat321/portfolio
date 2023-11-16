@@ -1,7 +1,6 @@
-import Image from "next/image";
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
+import { lists, mobiles, webs } from "../../../../datas";
 import Photo from "../image";
-import { webs, mobiles, lists } from "../../../../datas";
 import ListPortfolio from "../listPorfolio";
 
 const Portfolio = () => {
@@ -36,7 +35,7 @@ const Portfolio = () => {
       </ul>
       <div className="w-[70%] md:w-[100%] flex justify-center items-center flex-wrap cursor-pointer">
         {datas.map((web) => (
-          <Photo title={web.title} key={web.id} img={web.img} />
+          <Photo title={web.title} key={web.id} img={web.img} url={web.url}  />
         ))}
       </div>
     </div>
