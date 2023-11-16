@@ -4,6 +4,9 @@ export const SendContactForm = async (data) => {
   await fetch("/api/contact", {
     method: "POST",
     body: JSON.stringify(data),
+    mode: "cors",
+    cache: "no-cache",
+    credentials: "same-origin",
     headers: {
       "Content-Type": "application/json",
       Accept: "application/json",
