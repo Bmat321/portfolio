@@ -1,9 +1,8 @@
 import { SendContactForm } from "@/utils/api";
 import Image from "next/image";
-import { useEffect, useState } from "react";
-import Loader from "../loader/Loader";
+import { useState } from "react";
 import toast from "react-hot-toast";
-import { init } from "ityped";
+import Loader from "../loader/Loader";
 
 const Contact = () => {
   const [contact, setContact] = useState({
@@ -29,7 +28,6 @@ const Contact = () => {
       await SendContactForm(contact);
       toast.success("Message sent successfully");
       e.target.reset();
-      // setContact((prev) => ({ ...prev, email: "", subject: "", message: "" }));
     } catch (error) {
       setResponseMessage((prev) => ({
         ...prev,

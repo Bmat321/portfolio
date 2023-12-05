@@ -2,12 +2,11 @@
 import { useState } from "react";
 import Contact from "./components/contact";
 import Intro from "./components/intro";
+import Menu from "./components/menu";
 import Portfolio from "./components/portfolio";
-import Testimonials from "./components/testimonials";
 import TopBar from "./components/topbar";
 import Works from "./components/works";
 import "./globals.css";
-import Menu from "./components/menu";
 
 export default function Home() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -18,8 +17,6 @@ export default function Home() {
       <div className="section">
         <Intro />
         <Portfolio />
-        <Works />
-        {/* <Testimonials /> */}
         <Contact />
       </div>
     </div>

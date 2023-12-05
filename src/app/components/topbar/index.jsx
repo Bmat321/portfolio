@@ -2,6 +2,7 @@
 import React from "react";
 import Person from "@material-ui/icons/Person";
 import Mail from "@material-ui/icons/Mail";
+import Link from "next/link";
 
 const TopBar = ({ menuOpen, setMenuOpen }) => {
   return (
@@ -20,11 +21,16 @@ const TopBar = ({ menuOpen, setMenuOpen }) => {
             <Person className="text-lg mr-2" />
             <span className=" text-base font-bold ">+234 807464 0440</span>
           </div>
+
           <div className="flex items-center ml-4 md:hidden">
-            <Mail className="text-lg mr-2" />
-            <span className=" text-base font-bold">
-              mathewabioduntech537@gmail.com
-            </span>
+            <Link
+              href={"https://github.com/Bmat321"}
+              passHref
+              target="_blank"
+              className=" text-base font-bold"
+            >
+              Github
+            </Link>
           </div>
         </div>
         <div>
