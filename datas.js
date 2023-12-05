@@ -56,6 +56,5 @@ export const lists = [
 export const tabs = [
   { name: "Home", link: "#intro", content: "Home" },
   { name: "Portfolio", link: "#portfolio", content: "Portfolio" },
-  { name: "Works", link: "#works", content: "Works" },
   { name: "Contact", link: "#contact", content: "Contact" },
 ];

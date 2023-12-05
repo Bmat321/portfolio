@@ -5,7 +5,6 @@ import Intro from "./components/intro";
 import Menu from "./components/menu";
 import Portfolio from "./components/portfolio";
 import TopBar from "./components/topbar";
-import Works from "./components/works";
 import "./globals.css";
 
 export default function Home() {
