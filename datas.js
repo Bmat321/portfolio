@@ -13,14 +13,9 @@ export const webs = [
     url: "https://reddit-clone-ts.vercel.app/",
   },
 
+ 
   {
     id: 3,
-    title: "My blog",
-    img: "/assets/blog.png",
-    url: "https://myblog-tawny-ten.vercel.app/",
-  },
-  {
-    id: 4,
     title: "Freelace",
     img: "/assets/freelance.png",
     url: "https://freelance-client.onrender.com/",
