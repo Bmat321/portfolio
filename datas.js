@@ -20,6 +20,12 @@ export const webs = [
     img: "/assets/freelance.png",
     url: "https://freelance-client.onrender.com/",
   },
+    {
+    id: 3,
+    title: "Pizza Shop",
+    img: "/assets/pizza.png",
+    url: "https://pizza-rosy-one.vercel.app/",
+  },
 ];
 
 export const mobiles = [
